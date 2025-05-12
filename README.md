@@ -9,10 +9,10 @@ style it with [CSS](resume.css), output to [HTML](resume.html) and
 
 ## Prerequisites
 
- - Python ≥ 3.6
- - [python-markdown](https://python-markdown.github.io/) (`pip install
+- Python ≥ 3.6
+- [python-markdown](https://python-markdown.github.io/) (`pip install
    markdown`)
- - Optional, required for PDF output: Google Chrome or Chromium
+- Optional, required for PDF output: Google Chrome or Chromium
 
 ## Usage
 
@@ -54,3 +54,5 @@ href="https://python-markdown.github.io/extensions/attr_list/">attr_list</a></co
 in particular may by useful if you are editing the CSS.
 [abbreviations](https://python-markdown.github.io/extensions/abbreviations/)
 extension is already enabled.
+
+python3 resume.py --chrome-path='C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe'

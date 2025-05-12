@@ -1,60 +1,93 @@
 <!-- The (first) h1 will be used as the <title> of the HTML page -->
-# Richard Hendricks
+# 姚锦庆
 
 <!-- The unordered list immediately after the h1 will be formatted on a single
 line. It is intended to be used for contact details -->
-- <richard.hendriks@mail.com>
-- (912) 555-4321
-- [richardhendricks.example.com](http://richardhendricks.example.com)
-- San Francisco, CA
+- <kayleh@foxmail.com>
+- [kayleh.top](http://kayleh.top)
+- Guangdong, China
 
 <!-- The paragraph after the h1 and ul and before the first h2 is optional. It
 is intended to be used for a short summary. -->
-CEO and Software Engineer with knowledge of applied information theory,
-including optimizing lossless compression schema of both the length-limited and
-adaptive variants.
+资深全栈开发工程师，4年大型企业级应用开发经验，曾主导0到1交付千万级用户项目。精通Java/Python全栈技术体系（Spring Boot/Django/Vue.js/TypeScript），擅长分布式系统与微服务架构设计。具备TOC/TOB产品独立开发能力，主导构建过日均处理百万级请求的高并发系统，保障3000万+注册用户平台实时稳定运行。
 
-## Experience
+## 技能
+
+- 扎实的Java/Python基础，熟悉JVM基础，熟悉常⽤集合类，熟悉多线程并发编程。
+
+- 熟练使用SpringBoot/Django等常用Web框架，熟练使用Mybatis/Spring Data JPA等ORM框架。
+
+- 了解微服务架构，熟悉SpringCloud生态主要服务治理组件，熟悉Docker容器化部署。
+
+- 熟悉TCP/IP协议，HTTP协议。
+
+- 熟悉MySQL、PostgreSQL、达梦、人大金仓等关系数据库，具备一定的SQL调优能力, 熟悉Redis等NoSQL数据库。
+
+- 熟悉XXL-job定时任务，熟悉MQ消息队列，熟悉Redission分布式锁。
+
+- 熟悉Linux系统及常用命令，能完成简单Shell脚本编写。
+
+- 熟悉常用的设计模式、数据结构与算法。
+
+- 常用工具：Maven、Git/SVN、Swagger等。
+
+- 掌握HTML5/CSS3/ES6、Vue、微信小程序， 熟悉JS/TS、Element-ui等前端开发技术。
+
+- 其他：有信创云国产化建设交付经验，等保、云平台安全运维经验
+
+## 工作经历
 
 <!-- You have to wrap the "left" and "right" half of these headings in spans by
 hand -->
-### <span>CEO/President, Pied Piper</span> <span>Dec 2013 -- Dec 2014</span>
+### <span>广州市正易信息科技有限公司, 后端研发</span> <span>2021/05 -- 2025/04</span>
 
-Pied Piper is a multi-platform technology based on a proprietary universal
-compression algorithm that has consistently fielded high Weisman Scores™ that
-are not merely competitive, but approach the theoretical limit of lossless
-compression.
+正易信息科技是一家专业的移动信息化软件产品和服务提供商，是业界第一个采取交互系统与业务系统相结合的公司，主要从事企业管理软件、大数据和移动互联领域软件研发。
 
- - Build an algorithm for artist to detect if their music was violating
-   copyright infringement laws
- - Successfully won Techcrunch Disrupt
- - Optimized an algorithm that holds the current world record for Weisman Scores
+- 1.参与产品原始需求的讨论、完成核心代码开发、组内的code review；
+- 3.跟进联调、测试进度，完成服务端发布；
+- 4.产品迭代
+- 5.讨论系统架构及性能优化
 
-### <span>Teacher, CoderDojo</span> <span>July 2013 -- Dec 2013</span>
+### <span>东莞广易中医学研究中心, 行政专员/助理</span> <span>2020/12 -- 2021/05</span>
 
-Global movement of free coding clubs for young people.
+- 1.负责公司日常后勤事务的全面管理，包括但不限于办公环境维护、员工福利规划等。
+- 2.协调内外部关系，确保来访接待与各项后勤工作的顺利进行。
+- 3.监督进度，推动各项计划的有效执行与按时完成。
+- 4.准确传达上级指令，及时处理各类紧急事务，保障公司运营顺畅。
 
- - Awarded 'Teacher of the Month'
+### <span>东莞广易中医学研究中心, 内容运营</span> <span>2020/07 -- 2020/12</span>
 
-## Projects
+- 1.负责制定并执行公司内容运营策略，提升品牌影响力。
+- 2.创作高质量的原创内容，包括但不限于文章、报告及社交媒体帖子，以吸引并维护目标受众。
+- 3.监控并分析内容表现数据，调整运营策略以提高用户参与度和内容传播范围。
 
-### <span>Miss Direction</span> <span>Aug 2016</span>
+## 项目经历
 
-A mapping engine that misguides you:
+### <span>快消品二维码营销系统（DAU 30万+，用户总量2000万）</span> <span></span>
 
-   - Won award at AIHacks 2016
-   - Built by all women team of newbie programmers
-   - Using modern technologies such as GoogleMaps, Chrome Extension and Javascript
+1. 负责设计并实现二维码生成与管理模块，确保每个二维码的唯一性与系统的稳定性。
+2. 开发积分商城功能，包括商品展示、积分兑换流程，提升用户参与度和忠诚度。
+3. 实现订单追踪系统，通过二维码链接线上交易与线下核销，优化用户体验。
+4. 参与后端服务的开发，支持高并发场景下扫码核销、数据收集与分析等业务需求。
 
-## Education
+- 设计JWT多端统一鉴权方案，实现供应商与外部用户安全接入，日均处理4万用户注册；
+- 基于MQ队列解耦扫码权限异步缓冲校验，确保30万+日扫码请求99.9%实时响应；
+- 采用Redisson分布式锁解决积分商城超卖问题，并发订单处理能力提升至5000+/秒；
+- 开发手写板电子协议签署功能，简化业务签署流程。
 
-### <span>University of Oklahoma, BA Information Technology</span> <span>2011 -- 2014</span>
+### <span>快消品营销自动化系统（终端规模400万+）</span> <span></span>
 
-  - GPA 4.0
-  - DB1101 - Basic SQL
-  - CS2011 - Java Introduction
+1. 负责快消品营销自动化系统的设计与开发，专注于优化销售过程管理，提升客户信息全生命周期的管理效率。
+2. 开发销售机会跟踪系统，确保销售团队及时响应并有效跟进潜在商机。
+3. 确保整个销售流程的规范性和完整性，通过系统功能的不断迭代与优化，支持业务持续增长。
+4. 重构文件上传服务
 
-## Skills
+- 主导门店拜访流程配置化、片区管理模块、铺市活动管理及资产投放模块开发，日均支持10万+终端拜访、运营；
+- 集成第三方表单实现数据自动化采集，设计多线程数据推送接口，3小时内完成400万终端数据同步至第三方平台；
+- 搭建百度AI商品实景图标注系统，提示货架商品识别准确率至95%。
 
- - Web development: HTML, CSS, JavaScript
- - Compression: Mpeg, MP4, GIF
+## 教育经历
+
+### <span>暨南大学, 计算机科学与技术</span> <span>2025 -- 2028</span>
+
+- CS - 计算机组成原理
