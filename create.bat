@@ -1,0 +1,1 @@
+python3 resume.py --chrome-path="C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
