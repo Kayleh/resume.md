@@ -1,5 +1,5 @@
-<div style="position: fixed; top: 20px; right: 20px;">
-  <a href="/zh/resume" class="translate-button">
+<div style="position: fixed; top: 20px; left: 20px;">
+  <a href="/" class="translate-button">
     <i class="fa-solid fa-language"></i>
   </a>
 </div>
@@ -33,7 +33,7 @@ A senior full-stack development engineer with 4 years of experience in developin
 - Proficient in HTML5/CSS3/ES6, Vue, and WeChat Mini Programs, and familiar with front-end development technologies such as JS/TS and Element UI.
 - Others: Experience in the delivery of domestic independent innovation cloud construction, experience in security operation and maintenance of classified protection and cloud platforms.
 
-## Work Experience
+## Experience
 
 <!-- You have to wrap the "left" and "right" half of these headings in spans by
 hand -->
@@ -55,7 +55,7 @@ Guangyi Traditional Chinese Medicine Research Center is a research institution f
 - Supervise progress and promote the effective execution and timely completion of various plans.
 - Accurately communicate upper management's directives and promptly handle various emergencies to ensure the smooth operation of the company.
 
-## Project Experience
+## Projects
 
 ### <span>Fast-Moving Consumer Goods QR Code Marketing System (DAU over 300,000, total user volume 20 million)</span> <span></span>
 
@@ -90,7 +90,7 @@ An intelligent visitor management platform aimed at large group enterprises, sup
 - Designed visitor approval and permission classification modules;
 - Used JMeter for stress testing to identify database bottlenecks, optimized SQL indexing and sharding strategy;
 
-## 证书
+## Certifications
 
 - CET-4，Fluent in reading and writing English
 - [Applied Software Engineering Fundamentals](https://www.coursera.org/account/accomplishments/specialization/MPU0O9CWGOQL?utm_source%3Dandroid%26utm_medium%3Dcertificate%26utm_content%3Dcert_image%26utm_campaign%3Dsharing_cta%26utm_product%3Ds12n)
