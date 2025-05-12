@@ -1,5 +1,13 @@
+<div style="position: fixed; top: 20px; right: 20px;">
+  <a href="/zh/resume" class="translate-button">
+    <i class="fa-solid fa-language"></i>
+  </a>
+</div>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 <!-- The (first) h1 will be used as the <title> of the HTML page -->
-# Yao Jinqing
+# Kingsley Yau
 
 <!-- The unordered list immediately after the h1 will be formatted on a single
 line. It is intended to be used for contact details -->
@@ -31,53 +39,65 @@ A senior full-stack development engineer with 4 years of experience in developin
 hand -->
 ### <span>Guangzhou Zhengyi Information Technology Co., Ltd., Backend Development</span> <span>2021/05 -- 2025/04</span>
 
-Zhengyi Information Technology is a professional provider of mobile information software products and services. It is the first company in the industry to combine interactive systems with business systems. It is mainly engaged in the research and development of enterprise management software, big data, and mobile Internet software.
+Zhengyi is a professional provider of mobile information software products and services, and it is the first company in the industry to combine interactive systems with business systems. It mainly engages in the research and development of enterprise management software, big data, and mobile internet software.
 
-- 1. Participated in the discussion of product original requirements, completed core code development, and conducted code reviews within the team.
-- 3. Followed up on joint debugging and testing progress, and completed server-side releases.
-- 4. Product iteration.
-- 5. Discussed system architecture and performance optimization.
+- Participate in discussions of the original product requirements, complete core code development, and conduct internal code reviews.
+- Iterate on the product, follow up on integration testing progress, and complete server release.
+- Discuss system architecture and performance optimization.
 
-### <span>Dongguan Guangyi Traditional Chinese Medicine Research Center, Administrative Commissioner/Assistant</span> <span>2020/12 -- 2021/05</span>
+### <span>Dongguan Guangyi Traditional Chinese Medicine Research Center (Limited Partnership), Administrative Commissioner/Assistant/Content Operations</span> <span>2020/06 -- 2021/05</span>
 
-- 1. Responsible for the overall management of the company's daily logistics affairs, including but not limited to office environment maintenance and employee welfare planning.
-- 2. Coordinated internal and external relationships to ensure smooth reception of visitors and various logistics work.
-- 3. Supervised progress to promote the effective execution and timely completion of various plans.
-- 4. Accurately conveyed superior instructions and promptly handled various emergency affairs to ensure smooth company operations.
+Guangyi Traditional Chinese Medicine Research Center is a research institution focused on the field of traditional Chinese medicine, dedicated to promoting the modernization and internationalization of traditional Chinese medicine, planning cultural and artistic exchange activities, exhibition events, and disseminating knowledge about health care in traditional Chinese medicine.
 
-### <span>Dongguan Guangyi Traditional Chinese Medicine Research Center, Content Operations</span> <span>2020/07 -- 2020/12</span>
-
-- 1. Responsible for formulating and executing the company's content operation strategy to enhance brand influence.
-- 2. Created high-quality original content, including but not limited to articles, reports, and social media posts, to attract and retain the target audience.
-- 3. Monitored and analyzed content performance data, and adjusted the operation strategy to improve user engagement and content dissemination.
+- Create high-quality original content to enhance brand influence. This includes but is not limited to articles, reports, and social media posts to attract and maintain the target audience. Monitor and analyze content performance data, adjusting operational strategies to improve user engagement and content dissemination.
+- Responsible for the comprehensive management of the company's daily logistics affairs, including but not limited to office environment maintenance and employee benefits planning.
+- Coordinate internal and external relationships to ensure smooth reception for visitors and the various logistical tasks.
+- Supervise progress and promote the effective execution and timely completion of various plans.
+- Accurately communicate upper management's directives and promptly handle various emergencies to ensure the smooth operation of the company.
 
 ## Project Experience
 
 ### <span>Fast-Moving Consumer Goods QR Code Marketing System (DAU over 300,000, total user volume 20 million)</span> <span></span>
 
-1. Responsible for designing and implementing the QR code generation and management module to ensure the uniqueness of each QR code and the stability of the system.
-2. Developed the points mall function, including product display and points redemption process, to enhance user engagement and loyalty.
-3. Implemented the order tracking system, linking online transactions with offline verification through QR codes to optimize the user experience.
-4. Participated in the development of backend services to support business requirements such as QR code verification, data collection, and analysis in high-concurrency scenarios.
+The fast-moving consumer goods QR code marketing system is a QR code marketing platform aimed at internal enterprises, suppliers, and external consumer users, designed to achieve full lifecycle management of QR code marketing through processes such as code package production, scanning QR code red envelopes, and expense reconciliation.
 
-- Designed a JWT multi-terminal unified authentication scheme to enable secure access for suppliers and external users, handling an average of 40,000 user registrations per day.
-- Decoupled the asynchronous buffer verification of QR code scanning permissions based on MQ queues to ensure 99.9% real-time response to over 300,000 daily QR code scanning requests.
-- Used Redisson distributed locks to solve the overselling problem in the points mall, increasing the concurrent order processing capacity to over 5,000 orders per second.
-- Developed the handwritten electronic agreement signing function to simplify the business signing process.
+- Designed a unified JWT multi-end authentication solution to enable secure access for vendors and external users, handling an average of 40,000 user registrations per day;
+- Decoupled scanning process through MQ queues to asynchronously address performance issues in high concurrency scanning scenarios, ensuring 99.9% real-time response for over 300,000 daily scanning requests;- Designed and developed a points mall feature, using Redisson distributed locks to resolve overselling issues in the points mall, and improved concurrent order processing capability to over 5,000 orders per second;
+- Developed an electronic agreement signing feature for writing board, simplifying the business signing process.
 
 ### <span>Fast-Moving Consumer Goods Marketing Automation System (Terminal scale over 4 million)</span> <span></span>
 
-1. Responsible for the design and development of the fast-moving consumer goods marketing automation system, focusing on optimizing sales process management and improving the management efficiency of the entire customer information lifecycle.
-2. Developed the sales opportunity tracking system to ensure that the sales team responds promptly and effectively follows up on potential business opportunities.
-3. Ensured the standardization and integrity of the entire sales process, and supported continuous business growth through continuous iteration and optimization of system functions.
-4. Refactored the file upload service.
+aimed at enhancing the efficiency of sales teams and customer relationship management capabilities through systematic sales opportunity tracking, customer information management, and the standardization of sales processes.
 
-- Led the development of the store visit process configuration, district management module, market penetration activity management, and asset placement module, supporting over 100,000 terminal visits and operations per day.
-- Integrated third-party forms to achieve automated data collection, designed multi-threaded data push interfaces, and completed the synchronization of 4 million terminal data to the third-party platform within 3 hours.
-- Built the Baidu AI product real-scene icon annotation system, improving the shelf product recognition accuracy to 95%.
+- Led the configuration of the store visit process, the area management module, trade promotion management, and asset management module development, supporting over 100,000 terminal visits daily;
+- Integrated third-party forms to achieve automated data collection of sales data, designed a multi-threaded data push interface, and completed the synchronization of 4 million terminal data to third-party platforms within 3 hours;
+- Designed and refactored the file upload service, supporting multi-file service switching, enhancing the stability and scalability of the file upload service.
+- Built an AI product real-scene icon annotation system, improving shelf product identification accuracy to 95%.
 
-## Education Experience
+### <span>Municipal Education Bureau Quality Monitoring Platform, Backend Development</span> <span></span>
 
-### <span>Jinan University, Computer Science and Technology</span> <span>2025 -- 2028</span>
+By digitally transforming the quality monitoring and evaluation system, we created an evaluation management platform that serves the education bureau, street offices, and kindergartens, while meeting localization and data security compliance requirements.
 
-- CS - Principles of Computer Composition
+- Implemented field-level dynamic encryption based on MyBatis, certified by domestic cloud security assessment;
+- Led the migration from MySQL to PostgreSQL/Dameng database, designed a multi-data source synchronization framework, increasing data aggregation efficiency by 60%;
+- Established a dual-active disaster recovery architecture and automated backup system, achieving 99.99% system availability throughout the year.
+
+### <span>State Power Investment Corporation Visitor Management System, Backend Development</span> <span></span>
+
+An intelligent visitor management platform aimed at large group enterprises, supporting the entire online process and high security control.
+
+- Participated in requirement analysis and led the design of technical solutions, completed system architecture setup and core function development;
+- Designed visitor approval and permission classification modules;
+- Used JMeter for stress testing to identify database bottlenecks, optimized SQL indexing and sharding strategy;
+
+## 证书
+
+- CET-4，Fluent in reading and writing English
+- [Applied Software Engineering Fundamentals](https://www.coursera.org/account/accomplishments/specialization/MPU0O9CWGOQL?utm_source%3Dandroid%26utm_medium%3Dcertificate%26utm_content%3Dcert_image%26utm_campaign%3Dsharing_cta%26utm_product%3Ds12n)
+- [IBM Back-End Development](https://www.coursera.org/account/accomplishments/specialization/50RVN0NORLNC?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=prof)
+
+## Education
+
+### <span>Jinan University, Computer Science and Technology</span> <span></span>
+
+- Courses such as operating systems, databases, data structures, algorithm design and analysis, etc.
