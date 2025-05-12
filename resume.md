@@ -1,5 +1,5 @@
 <div style="position: fixed; top: 20px; left: 20px;">
-  <a href="/" class="translate-button">
+  <a href="/zh/resume" class="translate-button">
     <i class="fa-solid fa-language"></i>
   </a>
 </div>
